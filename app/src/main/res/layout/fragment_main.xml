@@ -6,6 +6,8 @@
 
     <!--Content-->
     <LinearLayout
+        android:background="#e4fdcd95"
+        android:padding="30dp"
         android:orientation="vertical"
         android:layout_margin="@dimen/margin"
         android:layout_width="match_parent"
@@ -15,8 +17,8 @@
         <ImageView
             android:layout_gravity="center_horizontal"
             android:src="@drawable/logo"
-            android:layout_width="@dimen/logo"
-            android:layout_height="@dimen/logo" />
+            android:layout_width="80dp"
+            android:layout_height="120dp" />
 
         <!--User-->
         <LinearLayout
@@ -72,6 +74,10 @@
 
         <!--Register-->
         <TextView
+            android:id="@+id/txtNewRegister"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
             android:layout_gravity="center_horizontal"
             android:textColor="@color/colorAccent"
             android:text="New Register"
